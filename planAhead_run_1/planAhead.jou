@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Nov 28 23:37:24 2021
+# Process ID: 22668
+# Log file: D:/szdl/D/planAhead_run_1/planAhead.log
+# Journal file: D:/szdl/D/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/szdl/D/pa.fromNetlist.tcl
+set_property iostandard LVCMOS18 [get_ports [list clr]]
+set_property iostandard LVCMOS18 [get_ports [list clk]]
+set_property iostandard LVCMOS18 [get_ports [list d]]
+set_property iostandard LVCMOS18 [get_ports [list pre]]
+set_property iostandard LVCMOS18 [get_ports [list q]]
+set_property iostandard LVCMOS18 [get_ports [list qn]]
+set_property pulltype PULLDOWN [get_ports [list clk]]
+set_property pulltype PULLDOWN [get_ports [list clr]]
+set_property pulltype PULLDOWN [get_ports [list d]]
+set_property pulltype PULLDOWN [get_ports [list pre]]
+startgroup
+set_property package_pin R1 [get_ports q]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports qn]
+endgroup
+set_property package_pin "" [get_ports [list  clk]]
+startgroup
+set_property package_pin R4 [get_ports pre]
+endgroup
+startgroup
+set_property package_pin AA4 [get_ports clr]
+endgroup
+startgroup
+set_property package_pin AB6 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin T3 [get_ports d]
+endgroup
+save_constraints

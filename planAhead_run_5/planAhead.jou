@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Dec 01 10:07:17 2021
+# Process ID: 32536
+# Log file: D:/szdl/D/planAhead_run_5/planAhead.log
+# Journal file: D:/szdl/D/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/szdl/D/pa.fromNetlist.tcl
+startgroup
+set_property package_pin T5 [get_ports pre]
+endgroup
+save_constraints
+startgroup
+set_property package_pin V8 [get_ports clr]
+endgroup
+startgroup
+set_property package_pin U3 [get_ports pre]
+endgroup
+startgroup
+set_property package_pin V3 [get_ports d]
+endgroup
+save_constraints
+startgroup
+set_property package_pin T4 [get_ports clr]
+endgroup
+save_constraints -force
+startgroup
+set_property package_pin T3 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin W4 [get_ports d]
+endgroup
+startgroup
+set_property package_pin U3 [get_ports pre]
+endgroup
+startgroup
+set_property package_pin V4 [get_ports clr]
+endgroup
+save_constraints -force
+startgroup
+set_property package_pin V3 [get_ports pre]
+endgroup
+startgroup
+set_property package_pin R1 [get_ports q]
+endgroup
+save_constraints -force
+startgroup
+set_property package_pin P2 [get_ports qn]
+endgroup
+save_constraints -force
+startgroup
+set_property package_pin R4 [get_ports clk]
+endgroup
+save_constraints -force
+startgroup
+set_property package_pin V4 [get_ports clr]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports pre]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports clr]
+endgroup
+save_constraints -force
